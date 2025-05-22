@@ -6,6 +6,7 @@ import NotFound from "./pages/Not-Found/NotFound";
 import Layouts from "./components/layouts/Layouts";
 import Data from "./components/header/Data";
 import ReactHookFormEg from "./pages/reactHookForm-Eg/React-hook-Form_eg";
+import UseRefHook from "./pages/hooks/UseRefHook";
 
 function CustomRoutes() {
   const element = useRoutes([
@@ -23,6 +24,10 @@ function CustomRoutes() {
     {
       path: "/react-hook-form",
       element: <ReactHookFormEg />,
+    },
+    {
+      path: "/useref-hook",
+      element: <UseRefHook />,
     },
   ]);
   return element;
