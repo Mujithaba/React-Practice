@@ -1,9 +1,11 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import useFetch from "../../hooks/use-Fetch";
+import useWindowResize from "../../hooks/use-Window-Resize";
 
 export default function RecipeList() {
   const { data, loading, error } = useFetch("https://dummyjson.com/recipes");
+  const windowResizes = useWindowResize();
 
   const location = useLocation();
 
@@ -14,9 +16,14 @@ export default function RecipeList() {
 
   return (
     <div>
-      <h2 style={{ color: "yellowgreen" }}>
+      <h2 style={{ color: windowResizes.width > 900 ? "yellowgreen" : "red" }}>
         Recipe list Page for react router
       </h2>
+
+      <h1>
+        Window current width :{windowResizes?.width} , and height:
+        {windowResizes?.height}
+      </h1>
 
       <ul>
         {data?.recipes?.length > 0
