@@ -6,7 +6,9 @@ import NotFound from "./pages/Not-Found/NotFound";
 import Layouts from "./components/layouts/Layouts";
 import Data from "./components/header/Data";
 import ReactHookFormEg from "./pages/reactHookForm-Eg/React-hook-Form_eg";
-import UseRefHook from "./pages/hooks/UseRefHook";
+import UseRefHook from "./pages/useRef/UseRefHook";
+import UseMemo from "./pages/useMemo/UseMemo";
+import UseCallbackEg from "./pages/useCallback/UseCallbackEg";
 
 function CustomRoutes() {
   const element = useRoutes([
@@ -29,6 +31,14 @@ function CustomRoutes() {
       path: "/useref-hook",
       element: <UseRefHook />,
     },
+    {
+      path: "/usememo-hook",
+      element: <UseMemo />,
+    },
+    {
+      path:'/usecallback-hook',
+      element:<UseCallbackEg/>,
+    }
   ]);
   return element;
 }
