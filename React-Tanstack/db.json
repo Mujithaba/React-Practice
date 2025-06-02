@@ -1,0 +1,206 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title two",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "another title three",
+      "views": 200
+    },
+    {
+      "id": "4",
+      "title": "another title four",
+      "views": 200
+    },
+    {
+      "id": "5",
+      "title": "title five",
+      "views": "455"
+    },
+    {
+      "id": "6",
+      "title": "title six",
+      "views": "322"
+    },
+    {
+      "id": "7",
+      "title": "title seven",
+      "views": "888"
+    },
+    {
+      "id": "8",
+      "title": "eight",
+      "views": "322"
+    },
+    {
+      "id": "9",
+      "title": "title nine",
+      "views": "455"
+    },
+    {
+      "id": "10",
+      "title": "Title invalidation query",
+      "views": "212"
+    },
+    {
+      "id": "11",
+      "title": "optimized data",
+      "views": "344"
+    },
+    {
+      "id": "12",
+      "title": "optimized data one",
+      "views": "321"
+    },
+    {
+      "id": "13",
+      "title": "hello react query",
+      "views": "123"
+    },
+    {
+      "id": "14",
+      "title": "",
+      "views": ""
+    },
+    {
+      "id": "15",
+      "title": "",
+      "views": ""
+    },
+    {
+      "id": "16",
+      "title": "",
+      "views": ""
+    },
+    {
+      "id": "17",
+      "title": "",
+      "views": ""
+    },
+    {
+      "id": "18",
+      "title": "",
+      "views": ""
+    },
+    {
+      "id": "19",
+      "title": "",
+      "views": ""
+    },
+    {
+      "id": "20",
+      "title": "",
+      "views": ""
+    },
+    {
+      "id": "21",
+      "title": "",
+      "views": ""
+    }
+  ],
+  "fruits": [
+    {
+      "id": "1",
+      "name": "Apple"
+    },
+    {
+      "id": "2",
+      "name": "Banana"
+    },
+    {
+      "id": "3",
+      "name": "Orange"
+    },
+    {
+      "id": "4",
+      "name": "Mango"
+    },
+    {
+      "id": "5",
+      "name": "Grapes"
+    },
+    {
+      "id": "6",
+      "name": "Pineapple"
+    },
+    {
+      "id": "7",
+      "name": "Strawberry"
+    },
+    {
+      "id": "8",
+      "name": "Blueberry"
+    },
+    {
+      "id": "9",
+      "name": "Watermelon"
+    },
+    {
+      "id": "10",
+      "name": "Papaya"
+    },
+    {
+      "id": "11",
+      "name": "Kiwi"
+    },
+    {
+      "id": "12",
+      "name": "Cherry"
+    },
+    {
+      "id": "13",
+      "name": "Peach"
+    },
+    {
+      "id": "14",
+      "name": "Pear"
+    },
+    {
+      "id": "15",
+      "name": "Guava"
+    },
+    {
+      "id": "16",
+      "name": "Lychee"
+    },
+    {
+      "id": "17",
+      "name": "Plum"
+    },
+    {
+      "id": "18",
+      "name": "Fig"
+    },
+    {
+      "id": "19",
+      "name": "Pomegranate"
+    },
+    {
+      "id": "20",
+      "name": "Coconut"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
