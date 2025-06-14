@@ -1,0 +1,2 @@
+ npm i -D @babel/preset-env @babel/preset-react jest @testing-library/react @testing-library/jest-dom jest-environment-jsdom @testing-library/user-event
+>>

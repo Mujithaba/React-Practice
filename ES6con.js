@@ -58,7 +58,18 @@
 // })
 // // console.log(getFindIndexMethod)
 
-const form = new FormData()
-form.append("username", "Aman");
-form.append("username", "Aman");
-console.log(form);
+// const form = new FormData()
+// form.append("username", "Aman");
+// form.append("username", "Aman");
+// console.log(form);
+
+
+let abc="hareesh"
+
+function fn(){
+    console.log(abc)
+// let abc = "ajmal"
+}
+
+fn()
+
